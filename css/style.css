@@ -70,6 +70,17 @@ section{
  font-size: 38px;
  font-family: 'Open Sans', sans-serif;
  font-weight: 700;
+ position: relative;
+ padding-left: 10px;
+}
+.banner-content h2::after{
+    position: absolute;
+    content: "";
+    height:85px;
+    width: 3px;
+    background-color: coral;
+    top: 15px;
+    left: 0px;
 }
 .banner-content span{
 color: coral;
@@ -119,5 +130,6 @@ color: #000;
 }
 .banner-img img{
     width: 80%;
+    padding-top: 10px;
 }
 /*--------banner part end--------*/
