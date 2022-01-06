@@ -30,7 +30,7 @@ body{
 
 /*--------navbar part start--------*/
 #navbar{
-    background-color: rgb(240, 204, 86);
+    background-color: #ff7f509c;
     width: 100%;
     position: fixed;
     top: 0px;
@@ -168,26 +168,28 @@ color: #000;
     padding-bottom: 15px;
 }
 
-.items-content{
-  background-color: rgb(219, 148, 121);
-  margin-right: 10px;
-  border-radius: 10px;
+.items-content {
+	background-color: #ff7f509c;
+	margin-right: 10px;
+	border-radius: 10px;
+	height: 270px;
+	width: 350px;
 }
-.items-content  img{
-   width: 25%;
-   padding-top: 10px ;
-   padding-left: 10px ;
+.items-content img {
+	width: 25%;
+	padding-top: 30px;
+	padding-left: 10px;
 }
 
-.items-content  h3{
-    color: #000;
-    text-transform: capitalize;
-    font-size: 25px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    padding-left: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+.items-content h3 {
+	color: #000;
+	text-transform: capitalize;
+	font-size: 25px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	padding-top: 5px;
 }
 .items-content  p{
     color: #000;
@@ -197,7 +199,7 @@ color: #000;
      line-height: 22px;
      padding-bottom: 15px;
      padding-left: 15px;
-     width: 350px;
+     width: 330px;
     }
 /*--------mission part end--------*/
 
