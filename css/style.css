@@ -191,16 +191,17 @@ color: #000;
 	padding-bottom: 10px;
 	padding-top: 5px;
 }
-.items-content  p{
-    color: #000;
-     font-size: 14px;
-     font-family: 'Roboto', sans-serif;
-     font-weight: 400;
-     line-height: 22px;
-     padding-bottom: 15px;
-     padding-left: 15px;
-     width: 330px;
-    }
+.items-content p {
+	color: #000;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	line-height: 22px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	width: 330px;
+	text-align: justify;
+}
 /*--------mission part end--------*/
 
 /*--------develop part start--------*/
@@ -333,14 +334,13 @@ padding: 50px 0px;
     padding: 50px 0px;
     background-color: #fff;
 }
-#enroll h2{
-    color: #000;
-    text-transform: capitalize;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    font-size: 35px;
-    padding-bottom: 50px;
-    text-align: center;
+#enroll h2 {
+	color: #000;
+	text-transform: capitalize;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 35px;
+	padding-bottom: 10px;
 }
 #enroll h2 span{
     color: coral;
@@ -413,7 +413,7 @@ padding: 50px 0px;
 }
 .enroll-form-text .submit{
     font-size: 18px;
-    background-color: darkorange;
+    background-color: coral;
     margin-bottom: 10px;
     cursor: pointer;
     color: #000;
@@ -423,7 +423,7 @@ padding: 50px 0px;
 }
 .enroll-form-text .reset{
     font-size: 18px;
-    background-color: darkorange;
+    background-color: coral;
     margin-bottom: 10px;
     cursor: pointer;
     color: #000;
@@ -432,6 +432,40 @@ padding: 50px 0px;
     font-weight: 500;
 }
 /*--------enroll part start--------*/
+
+/*--------updated  part start--------*/
+.updated-content {
+	padding-top: 75px;
+}
+.updated-content h2{
+    color: #000;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.updated-content p {
+	color: #000;
+	text-transform: capitalize;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	line-height: 22px;
+	padding-bottom: 20px;
+	width: 458px;
+	text-align: justify;
+}
+.updated-content a{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding: 10px 20px;
+    background-color: coral;
+    border-radius: 5px;
+}
+/*--------updated  part start--------*/
 
 /*--------footer part start--------*/
 #footer{
