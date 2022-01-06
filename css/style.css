@@ -323,7 +323,104 @@ padding: 50px 0px;
 /*--------community part end--------*/
 
 /*--------enroll part start--------*/
-#register{
-    
+#enroll{
+    padding: 50px 0px;
+    background-color: #fff;
+}
+#enroll h2{
+    text-align: center;
+    color: #000;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    padding-bottom: 50px;
+}
+#enroll h2 span{
+    color: coral;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+}
+.enroll-form{
+    height: 500px;
+    width: 420px;
+    background-color: rgba(255, 140, 0, 0.5);
+    border-radius: 10px;
+}
+.enroll-title h2{
+    color: darkorange;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 25px;
+    position: relative;
+    text-align: center;
+}
+.enroll-title h2::after {
+	position: absolute;
+	content: "";
+	background-color: darkorange;
+	height: 3px;
+	width: 135px;
+	left: 0px;
+	bottom: 15px;
+}
+.enroll-form-text{
+    margin-top: 35px;
+    margin-left: 55px;
+}
+.enroll-form-text p{
+    font-size: 22px;
+    text-transform: capitalize;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding-bottom: 15px;
+}
+.enroll-form-text form input{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 80%;
+    padding: 8px 8px;
+    border: none;
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+.enroll-form-text form input:focus{
+   border: 2px solid #f08231;
+   transition: all linear .4s;
+   box-shadow:0px 3px 12px 6px rgba(0,0,0,0.55);
+}
+.enroll-form-text form label{
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.enroll-form-text .submit{
+    font-size: 18px;
+    background-color: darkorange;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #000;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+.enroll-form-text .reset{
+    font-size: 18px;
+    background-color: darkorange;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #000;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
 }
 /*--------enroll part start--------*/
